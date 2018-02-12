@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="6413" started-at="2018-02-02T09:30:43Z" finished-at="2018-02-02T09:30:50Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="6413" started-at="2018-02-02T09:30:43Z" finished-at="2018-02-02T09:30:50Z">
+      <class name="com.groupkt.testcase.GetContry">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.groupkt.testcase.GetContry@35f983a6]" name="beforeClass" is-config="true" duration-ms="455" started-at="2018-02-02T15:00:43Z" finished-at="2018-02-02T15:00:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="allCountry()[pri:0, instance:com.groupkt.testcase.GetContry@35f983a6]" name="allCountry" duration-ms="2882" started-at="2018-02-02T15:00:44Z" finished-at="2018-02-02T15:00:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allCountry -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.groupkt.testcase.GetContry@35f983a6]" name="beforeClass" is-config="true" duration-ms="1" started-at="2018-02-02T15:00:47Z" finished-at="2018-02-02T15:00:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="countryByTwoChar()[pri:0, instance:com.groupkt.testcase.GetContry@35f983a6]" name="countryByTwoChar" duration-ms="507" started-at="2018-02-02T15:00:47Z" depends-on-methods="com.groupkt.testcase.GetContry.allCountry" finished-at="2018-02-02T15:00:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countryByTwoChar -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.groupkt.testcase.GetContry@35f983a6]" name="beforeClass" is-config="true" duration-ms="3" started-at="2018-02-02T15:00:47Z" finished-at="2018-02-02T15:00:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="countryByThreeChar()[pri:0, instance:com.groupkt.testcase.GetContry@35f983a6]" name="countryByThreeChar" duration-ms="479" started-at="2018-02-02T15:00:47Z" depends-on-methods="com.groupkt.testcase.GetContry.countryByTwoChar" finished-at="2018-02-02T15:00:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countryByThreeChar -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.groupkt.testcase.GetContry@35f983a6]" name="beforeClass" is-config="true" duration-ms="1" started-at="2018-02-02T15:00:48Z" finished-at="2018-02-02T15:00:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="countryByAnyChar()[pri:0, instance:com.groupkt.testcase.GetContry@35f983a6]" name="countryByAnyChar" duration-ms="544" started-at="2018-02-02T15:00:48Z" depends-on-methods="com.groupkt.testcase.GetContry.countryByThreeChar" finished-at="2018-02-02T15:00:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countryByAnyChar -->
+      </class> <!-- com.groupkt.testcase.GetContry -->
+      <class name="com.groupkt.testcase.TerritoryOfCountry">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.groupkt.testcase.TerritoryOfCountry@2f7a2457]" name="beforeClass" is-config="true" duration-ms="1" started-at="2018-02-02T15:00:48Z" finished-at="2018-02-02T15:00:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="allState()[pri:0, instance:com.groupkt.testcase.TerritoryOfCountry@2f7a2457]" name="allState" duration-ms="511" started-at="2018-02-02T15:00:48Z" finished-at="2018-02-02T15:00:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allState -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.groupkt.testcase.TerritoryOfCountry@2f7a2457]" name="beforeClass" is-config="true" duration-ms="2" started-at="2018-02-02T15:00:49Z" finished-at="2018-02-02T15:00:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="searchStateByCountry()[pri:0, instance:com.groupkt.testcase.TerritoryOfCountry@2f7a2457]" name="searchStateByCountry" duration-ms="500" started-at="2018-02-02T15:00:49Z" finished-at="2018-02-02T15:00:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchStateByCountry -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.groupkt.testcase.TerritoryOfCountry@2f7a2457]" name="beforeClass" is-config="true" duration-ms="1" started-at="2018-02-02T15:00:49Z" finished-at="2018-02-02T15:00:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="searchStateByText()[pri:0, instance:com.groupkt.testcase.TerritoryOfCountry@2f7a2457]" name="searchStateByText" duration-ms="501" started-at="2018-02-02T15:00:49Z" finished-at="2018-02-02T15:00:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchStateByText -->
+      </class> <!-- com.groupkt.testcase.TerritoryOfCountry -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
